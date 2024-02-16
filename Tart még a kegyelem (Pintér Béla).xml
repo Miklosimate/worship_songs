@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.0.2" modifiedIn="OpenLP 3.0.2" modifiedDate="2023-09-23T09:24:08">
+  <properties>
+    <titles>
+      <title>Tart még a kegyelem</title>
+    </titles>
+    <verseOrder>v1 v2 c1</verseOrder>
+    <authors>
+      <author type="words">Pintér Béla</author>
+      <author type="music">Pintér Béla</author>
+    </authors>
+    <songbooks>
+      <songbook name="Szent András énekfüzet" entry="252"/>
+    </songbooks>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Tart még a kegyelem és a szívem örül,<br/>Jézus eljött hozzám, rajtam megkönyörült.<br/>Kinyújtotta karját, szelíden felemelt,<br/>amíg élek, azt a percet nem feledem.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Nyitva áll az ajtó, ma is bejöhetek,<br/>a trónteremben várnak, nekem ott a helyem.<br/>Jézus mellett élni, ez a legjobb dolog,<br/>ugrálok és táncolok, mert szabad vagyok.</lines>
+    </verse>
+    <verse name="c1">
+      <lines>És velem tapsol és táncol a menny,<br/>Jézus győzelméről zengek új éneket.<br/>És velem tapsol és táncol a menny,<br/>a Bárány dicsőségét hirdetem!</lines>
+    </verse>
+  </lyrics>
+</song>

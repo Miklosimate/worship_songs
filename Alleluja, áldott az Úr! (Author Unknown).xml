@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.0.2" modifiedIn="OpenLP 3.0.2" modifiedDate="2023-09-23T09:23:58">
+  <properties>
+    <titles>
+      <title>Alleluja, áldott az Úr!</title>
+    </titles>
+    <verseOrder>v1 v2 v3</verseOrder>
+    <authors>
+      <author>Author Unknown</author>
+    </authors>
+    <songbooks>
+      <songbook name="Zöld könyv" entry="229"/>
+      <songbook name="Kék könyv" entry="356"/>
+    </songbooks>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>‖: Alleluja :‖ ×6<br/>Áldott az Úr, mert legyőzte a halált,<br/>Feltámadt Jézus, dicső nagy királyunk,<br/>És üdvözítette minden gyermekét,<br/>Áldjuk az Ő nevét mindörökké!</lines>
+    </verse>
+    <verse name="v2">
+      <lines>‖: Alleluja :‖ ×6<br/>Jézus előtt hajoljon meg minden térd,<br/>A mennyben, a Földön és az alvilágban,<br/>Mert Ő az Úr, Övé minden dicsőség,<br/>Áldjuk az Ő nevét mindörökké!</lines>
+    </verse>
+    <verse name="v3">
+      <lines>‖: Alleluja :‖ ×6<br/>Minden, mi él, Tőle kapta életét,<br/>Övé a dicsőség örökkön-örökké,<br/>Gyertek, imádjuk az Élet Istenét,<br/>Áldjuk az Ő nevét mindörökké!</lines>
+    </verse>
+  </lyrics>
+</song>
