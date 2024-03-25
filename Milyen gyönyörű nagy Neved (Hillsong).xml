@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.0.2" modifiedIn="OpenLP 3.0.2" modifiedDate="2024-03-11T15:39:13">
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.1" modifiedIn="OpenLP 3.1.1" modifiedDate="2024-03-11T17:54:18">
   <properties>
     <titles>
       <title>Milyen gyönyörű nagy Neved</title>
       <title>What A Beautiful Name</title>
     </titles>
-    <verseOrder>v1 v2 b1 b2</verseOrder>
+    <verseOrder>v1 v2 b1 b2 c2</verseOrder>
     <authors>
       <author>Hillsong</author>
     </authors>
@@ -15,13 +15,16 @@
       <lines>A világ kezdetén ott voltál, egy voltál az Istennel.<br/>A teremtés rejtette arcod, míg Megváltóként jöttél el.<br/>Milyen gyönyörű nagy neved, gyönyörű nagy Neved<br/>Úr Jézus Krisztus, Nagy Király.<br/>Milyen gyönyörű nagy neved, minden név felett,<br/>Milyen gyönyörű nagy neved, ó drága Jézus!</lines>
     </verse>
     <verse name="v2">
-      <lines>A Mennyből földre jöttél értünk, vállaltad a keresztfát.<br/>Bűnömnél nagyobb szerelmed, semmi nem választ el már<br/>Milyen csodálatos neved, csodálatos neved,<br/>Úr Jézus Krisztus Nagy Király!<br/>Milyen csodálatos neved, minden név felett<br/>Milyen csodálatos neved, ó, drága Jézus!<br/>Milyen csodálatos neved, ó, drága Jézus!</lines>
+      <lines>A Mennyből földre jöttél értünk, vállaltad a keresztfát.<br/>Bűnömnél nagyobb szerelmed, semmi nem választ el már<br/>Milyen csodálatos neved, csodálatos neved,<br/>Úr Jézus Krisztus Nagy Király!<br/>Milyen csodálatos neved, minden név felett<br/>Milyen csodálatos neved, ó, drága Jézus!<br/></lines>
     </verse>
     <verse name="b1">
       <lines>Üres a sírbolt, megnyílt a kárpit,<br/>Hol a fullánkod bűn, halál?<br/>Ujjong a menny is, Téged dicsőít,<br/>Mert újra élsz, feltámadtál.<br/>Egyedül méltó, drága Megváltó<br/>Örök Király és Isten vagy.</lines>
     </verse>
     <verse name="b2">
       <lines>Tiéd az ország, minden dicsőség<br/>Nevedre minden térdet hajt.<br/>Egyedül méltó, drága Megváltó<br/>örök Király és Isten vagy.<br/>Tiéd az ország, minden dicsőség<br/>Nevedre minden térdet hajt.</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Milyen erős Nagy Neved<br/>Minden név felett</lines>
     </verse>
   </lyrics>
 </song>
