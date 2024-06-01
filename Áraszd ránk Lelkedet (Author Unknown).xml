@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 2.4.6" modifiedIn="OpenLP 2.4.6" modifiedDate="2022-09-13T16:38:32">
+  <properties>
+    <titles>
+      <title>Áraszd ránk Lelkedet</title>
+    </titles>
+    <authors>
+      <author>Author Unknown</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Áraszd ránk Lelkedet, nyisd meg felettünk a mennyet!</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Szentlelked áraszd ránk, szívünk járja át, <br/>Dobbanása hallatsszon a Mennyben!</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Hullj eső, kenet jöjj, szálljon ránk harmat a mennyből!</lines>
+    </verse>
+    <verse name="v4">
+      <lines>A szeretet friss szelét, lelkednek esőjét,<br/>Mennyország szívének ütését.</lines>
+    </verse>
+  </lyrics>
+</song>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 2.4.6" modifiedIn="OpenLP 2.4.6" modifiedDate="2020-02-28T13:53:19">
+  <properties>
+    <titles>
+      <title>Áldjon meg minket örök</title>
+    </titles>
+    <verseOrder>v1 v2</verseOrder>
+    <authors>
+      <author>Author Unknown</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Áldjon meg minket örök Atyaisten,<br/>áldjon meg minket kegyes Fiúisten,<br/>áldjon meg, áldjon Szentlélek Úristen,<br/>háromszemélyű igaz, örök Isten.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Atya Úristen, aki szent Fiadat<br/>bűn váltságára, miérettünk adtad,<br/>Szentlélek Istent ki elküldted nékünk,<br/>egy örök Isten, irgalmazz minékünk!</lines>
+    </verse>
+  </lyrics>
+</song>

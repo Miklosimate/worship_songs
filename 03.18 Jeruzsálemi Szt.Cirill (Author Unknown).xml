@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 2.4.6" modifiedIn="OpenLP 2.4.6" modifiedDate="2020-02-28T13:52:58">
+  <properties>
+    <titles>
+      <title>03.18 Jeruzsálemi Szt.Cirill</title>
+    </titles>
+    <verseOrder>v1 v2</verseOrder>
+    <authors>
+      <author>Author Unknown</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Az Úr ítéletei igazak, *és mind egyaránt jogosak.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>A te tanításod, Uram, * lélek és élet.</lines>
+    </verse>
+  </lyrics>
+</song>

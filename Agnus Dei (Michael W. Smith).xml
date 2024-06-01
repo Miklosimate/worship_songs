@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 2.4.6" modifiedIn="OpenLP 2.4.6" modifiedDate="2023-01-10T17:21:03">
+  <properties>
+    <titles>
+      <title>Agnus Dei</title>
+    </titles>
+    <authors>
+      <author>Michael W. Smith</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1a">
+      <lines>Halleluja! Legyen áldott a Mindenható!</lines>
+    </verse>
+    <verse name="v1b">
+      <lines>Halleluja! Szent vagy!<br/>//: Szent vagy! Méltó Bárány, Mindenható!<br/>Nagy a Te neved!<br/>Nagy a Te neved!<br/>Csak Te vagy a szent! ://<br/>Amen!</lines>
+    </verse>
+  </lyrics>
+</song>

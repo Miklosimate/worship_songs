@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 2.4.6" modifiedIn="OpenLP 2.4.6" modifiedDate="2022-03-22T17:25:50">
+  <properties>
+    <titles>
+      <title>Atyám, két kezedben</title>
+    </titles>
+    <authors>
+      <author>ismeretlen szerző</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Atyám két kezedben, csak ott lakhatom.<br/>Biztonságot csak Tőled kapok.<br/>Újjá teremtesz, sebem ápolod.<br/>Boldogság, hogy itt van otthonom!</lines>
+    </verse>
+    <verse name="c1a">
+      <lines>Tarts meg két kezedben, őrizz meg, Uram!<br/>Oltalmadban rejtsd el sorsomat!</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Atyám, két kezedben teljes az öröm,<br/>Ajándékodban gyönyörködöm.<br/>Tékozlóként éltem, tárva most karod,<br/>Hűtlenségem nem hánytorgatod.</lines>
+    </verse>
+    <verse name="c1b">
+      <lines>Tarts meg két kezedben, őrizz meg, Uram!<br/>Oltalmadban rejtsd el sorsomat!</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Atyám, két kezedben bátran sírhatok,<br/>Fájdalmaim hordozod, tudom.<br/>Ott fönn a kereszten, áldó két kezed,<br/>Bűneimmel én szegeztem fel.</lines>
+    </verse>
+  </lyrics>
+</song>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 2.4.6" modifiedIn="OpenLP 2.4.6" modifiedDate="2020-02-28T13:53:26">
+  <properties>
+    <titles>
+      <title>Antifóna Advent vigiliájától Gyertyaszentelőig</title>
+    </titles>
+    <verseOrder>v1 v2 v3 v4</verseOrder>
+    <authors>
+      <author>Author Unknown</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Megváltónk Szülője, szentséges Szűzanya,<br/>Mennyország ajtója, tengerek csillaga!<br/>Siess és oltalmazd rosszrahajló lelkünk,<br/>Ha vétekbe esnénk, segíts, hogy felkeljünk.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Te, ki az angyaltól üzenetet vettél<br/>S csodás módon, szűzen Isten anyja lettél,<br/>Szánd meg a bűn súlyos jármában élőket<br/>S a Te szent Fiadhoz vezesd vissza őket.</lines>
+    </verse>
+    <verse name="v3">
+      <lines>(P: Az Úr angyala köszönté a Boldogságos szűz Máriát.)<br/>H: És ő méhébe fogadá Szentlélektől szent Fiát.</lines>
+    </verse>
+    <verse name="v4">
+      <lines>(P: Szülésed után sértetlen szűz maradtál.)<br/>H: Istennek szent Anyja, könyörögj érettünk!</lines>
+    </verse>
+  </lyrics>
+</song>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 2.4.6" modifiedIn="OpenLP 2.4.6" modifiedDate="2020-02-28T13:53:00">
+  <properties>
+    <titles>
+      <title>06.05 Szt.Bonifác</title>
+    </titles>
+    <verseOrder>v1</verseOrder>
+    <authors>
+      <author>Author Unknown</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Menjetek el az egész világra, * és hirdessétek az evangéliumot!</lines>
+    </verse>
+  </lyrics>
+</song>

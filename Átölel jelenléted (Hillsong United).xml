@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 2.4.6" modifiedIn="OpenLP 2.4.6" modifiedDate="2022-01-24T15:02:22">
+  <properties>
+    <titles>
+      <title>Átölel jelenléted</title>
+    </titles>
+    <authors>
+      <author>Hillsong United</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Átölel jelenléted, ébren is csak Rólad álmodom!<br/>Várok Rád, s azt remélem, szelíd hangod újra meghallom!<br/>Hűség, igazság, szentség árad rám,<br/>Itt állok megváltva a te szent trónodnál.</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Rólad szóljon minden új ének, felemelt kezekkel dicsérlek,<br/>Nálad tisztább nem volt és nem lesz, Jézus!</lines>
+    </verse>
+    <verse name="b1">
+      <lines>Az a biztonság, ami Nálad vár, minden álmomnál többet ér.<br/>Az a békesség, amit ígértél, minden kincsemnél többet ér.<br/>Örök élet vár a Te házadnál és ez mindennél többet ér!</lines>
+    </verse>
+  </lyrics>
+</song>
