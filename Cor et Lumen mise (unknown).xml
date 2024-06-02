@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.1" modifiedIn="OpenLP 3.1.1" modifiedDate="2024-04-07T11:14:42">
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.1" modifiedIn="OpenLP 3.1.1" modifiedDate="2024-06-02T18:10:19">
   <properties>
     <titles>
-      <title>Cor et Lumen mise (váz)</title>
+      <title>Cor et Lumen mise</title>
     </titles>
     <verseOrder>i1 v1 v2 v3 v2 v4 v2 v5 v2 b6 v7 b8 v9 v10 v11 v10 v11 v12 v13 i14 b15 i16 b17</verseOrder>
     <authors>
@@ -11,7 +11,7 @@
   </properties>
   <lyrics>
     <verse name="i1">
-      <lines>Jöjj Szentlélek és égj bennem szent vágyakozással,<br/>Hogy alázatos szívvel és várakozó hittel,<br/>Mások véleményétől szabadon,<br/>Védtelen lehessek minden szavaddal és cselekedeteddel szemben,<br/>Istenem, <br/>Megváltásunknak és örök örömünknek ezen a dicsőséges ünnepén.</lines>
+      <lines>Jöjj Szentlélek és égj bennem szent vágyakozással,<br/>Hogy alázatos szívvel és várakozó hittel,<br/>Mások véleményétől szabadon,<br/>Védtelen lehessek minden szavaddal és cselekedeteddel szemben,<br/>Istenem,<br/>Megváltásunknak és örök örömünknek ezen a dicsőséges ünnepén.</lines>
     </verse>
     <verse name="v1">
       <lines>Kyrie eleison, Kyrie eleison!<br/>Christe eleison, Christe eleison!<br/>Kyrie eleison, Kyrie eleison!</lines>
@@ -29,22 +29,22 @@
       <lines>Mert egyedül Te vagy a Szent, te vagy az Úr,<br/>te vagy az egyetlen Fölség, Jézus Krisztus,<br/>a Szentlélekkel együtt az Atyaisten dicsőségében Ámen.</lines>
     </verse>
     <verse name="b6">
-      <lines>Adjatok hálát az Úrnak, mert jó, mivel irgalma örökké megmarad</lines>
+      <lines>Veszem az üdvösség kelyhét, és az Úr nevét hívom segítségül.</lines>
     </verse>
     <verse name="v7">
       <lines>||: Alleluja, alleluja, alleluja! :||</lines>
     </verse>
     <verse name="b8">
-      <lines>- felajánló dal- </lines>
+      <lines>- felajánló dal-</lines>
     </verse>
     <verse name="v9">
-      <lines>||: Szent vagy, szent vagy, szent vagy, mindenség Istene! :||<br/>Dicsőséged betölt mennyet és földet!</lines>
+      <lines>||: Szent vagy, szent vagy, szent vagy, mindenség Istene! :||</lines>
     </verse>
     <verse name="v10">
-      <lines>Hozsanna a magasságban!<br/>Hozsanna!<br/>Hozsanna a magasságban!</lines>
+      <lines>Dicsőséged betölt mennyet és földet!<br/>Hozsanna a magasságban!<br/>Hozsanna!<br/>Hozsanna a magasságban!</lines>
     </verse>
     <verse name="v11">
-      <lines>||: Áldott, áldott, áldott ki az Úr nevében jön :||<br/>Dicsőséged betölt mennyet és földet!</lines>
+      <lines>||: Áldott, áldott, áldott ki az Úr nevében jön :||</lines>
     </verse>
     <verse name="v12">
       <lines>Isten Báránya, Te elveszed a világ bűneit,<br/>Miserere nobis, miserere nobis, miserere nobis!</lines>
@@ -59,7 +59,7 @@
       <lines>-dal-</lines>
     </verse>
     <verse name="i16">
-      <lines>P: Kelj fel, tündökölj, mert eljött világosságod, és az Úr dicsősége felragyogott fölötted! Nemzetek jönnek majd világosságodhoz, és királyok felragyogó fényedhez.<br/><br/>Most tehát, Urunk, tekints fenyegetéseikre, s add meg szolgáidnak, hogy teljes bizodalommal hirdessék igédet. Te pedig nyújtsd ki kezedet gyógyításokra, hogy jelek és csodák történjenek szent Fiadnak, Jézusnak neve által. <br/></lines>
+      <lines>P: Kelj fel, tündökölj, mert eljött világosságod, és az Úr dicsősége felragyogott fölötted! Nemzetek jönnek majd világosságodhoz, és királyok felragyogó fényedhez.<br/><br/>Most tehát, Urunk, tekints fenyegetéseikre, s add meg szolgáidnak, hogy teljes bizodalommal hirdessék igédet. Te pedig nyújtsd ki kezedet gyógyításokra, hogy jelek és csodák történjenek szent Fiadnak, Jézusnak neve által.<br/></lines>
     </verse>
     <verse name="b17">
       <lines>-dal-</lines>

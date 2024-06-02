@@ -1,21 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.1" modifiedIn="OpenLP 3.1.1" modifiedDate="2023-09-23T09:20:33">
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.1" modifiedIn="OpenLP 3.1.1" modifiedDate="2024-06-01T13:51:13">
   <properties>
     <titles>
       <title>Áldom szent neved a mézzel</title>
       <title>Blessed Be Your Name</title>
     </titles>
-    <copyright>2002 Thankyou Music</copyright>
+    <copyright>© 2002 Thankyou Music</copyright>
     <verseOrder>v1 p1 c1 v2 p1 c1 b1</verseOrder>
     <authors>
-      <author type="words">Beth Redman</author>
-      <author type="music">Beth Redman</author>
-      <author type="words">Matt Redman</author>
-      <author type="music">Matt Redman</author>
-      <author type="translation">Vass Timea</author>
+      <author>Beth Redman</author>
+      <author>Matt Redman</author>
+      <author>Vass Timea</author>
     </authors>
     <songbooks>
-      <songbook name="Szent András énekfüzet" entry="291"/>
+      <songbook name="Szent András Énekfüzet" entry="291"/>
     </songbooks>
   </properties>
   <lyrics>
