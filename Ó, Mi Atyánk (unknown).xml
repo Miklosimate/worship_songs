@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.1" modifiedIn="OpenLP 3.1.1" modifiedDate="2024-06-01T13:52:27">
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.1" modifiedIn="OpenLP 3.1.1" modifiedDate="2024-06-10T13:19:24">
   <properties>
     <titles>
       <title>Ó, Mi Atyánk</title>
@@ -11,7 +11,7 @@
   </properties>
   <lyrics>
     <verse name="v1">
-      <lines>Ó Mi Atyánk, fent a mennyben<br/>Áldott a neved<br/>a te országod, jöjjön gyorsan,<br/>akaratod meg legyen</lines>
+      <lines>Ó Mi Atyánk, fent a mennyben<br/>Áldott a neved<br/>A te országod, jöjjön gyorsan,<br/>Akaratod meg legyen</lines>
     </verse>
     <verse name="c1">
       <lines>||: Itt lent, éppúgy, mint a mennyben, úgy legyen :||</lines>
