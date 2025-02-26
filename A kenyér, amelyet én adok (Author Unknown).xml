@@ -1,17 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.1" modifiedIn="OpenLP 3.1.1" modifiedDate="2024-06-01T13:51:58">
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 2.4.6" modifiedIn="OpenLP 2.4.6" modifiedDate="2020-12-22T14:03:44">
   <properties>
     <titles>
-      <title>A kenyér, amelyet én adok</title>
+      <title>A Kenyér, amelyet én adok</title>
     </titles>
     <verseOrder>v1</verseOrder>
     <authors>
       <author>Author Unknown</author>
     </authors>
+    <songbooks>
+      <songbook name="Éneklő Egyház" entry="540"/>
+    </songbooks>
   </properties>
   <lyrics>
     <verse name="v1">
-      <lines>„A kenyér, amelyet én adok<br/>Az én testem a világ életéért.”</lines>
+      <lines>A Kenyér, amelyet én adok,<br/>az én testem a világ életéért.</lines>
     </verse>
   </lyrics>
 </song>

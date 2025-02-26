@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.1" modifiedIn="OpenLP 3.1.1" modifiedDate="2024-06-01T13:52:08">
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 2.4.6" modifiedIn="OpenLP 2.4.6" modifiedDate="2020-12-22T14:03:51">
   <properties>
     <titles>
       <title>Az egész föld felett</title>
       <title>Lord Reign In Me</title>
     </titles>
-    <copyright>1998 Vineyard Songs (UK/Eire)</copyright>
+    <copyright>© 1998 Vineyard Songs (UK/Eire)</copyright>
     <verseOrder>v1 v2 c1</verseOrder>
     <authors>
       <author type="words">Brenton Brown</author>
@@ -14,6 +14,7 @@
     </authors>
     <songbooks>
       <songbook name="Szent András énekfüzet" entry="152"/>
+      <songbook name="Zöld könyv" entry="418"/>
     </songbooks>
   </properties>
   <lyrics>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.1" modifiedIn="OpenLP 3.1.1" modifiedDate="2024-06-01T13:52:31">
+  <properties>
+    <titles>
+      <title>Te kötötted egybe a szívünket</title>
+    </titles>
+    <verseOrder>v1 c1</verseOrder>
+    <authors>
+      <author>ismeretlen szerző</author>
+    </authors>
+    <songbooks>
+      <songbook name="Sárga könyv" entry="170"/>
+    </songbooks>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Te kötötted egybe a szívünket, imádunk együtt Téged!</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Hogyha meglesz az, amit Te akarsz,<br/>akkor a Te családod leszünk!</lines>
+    </verse>
+  </lyrics>
+</song>

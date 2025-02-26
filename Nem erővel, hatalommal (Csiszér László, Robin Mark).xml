@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.1" modifiedIn="OpenLP 3.1.1" modifiedDate="2024-06-01T13:52:25">
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 2.4.6" modifiedIn="OpenLP 2.4.6" modifiedDate="2020-12-22T14:04:27">
   <properties>
     <titles>
       <title>Nem erővel, hatalommal</title>
       <title>Not By Might</title>
     </titles>
-    <copyright>1998 Song Solutions Daybreak</copyright>
+    <copyright>© 1998 Song Solutions Daybreak</copyright>
     <verseOrder>v1</verseOrder>
     <authors>
       <author type="words">Robin Mark</author>

@@ -1,10 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.1" modifiedIn="OpenLP 3.1.1" modifiedDate="2024-06-01T13:52:22">
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 2.4.6" modifiedIn="OpenLP 2.4.6" modifiedDate="2020-12-22T14:04:19">
   <properties>
     <titles>
       <title>Lelkem csak Tebenned lel</title>
     </titles>
-    <verseOrder>v1 v2 c1</verseOrder>
     <authors>
       <author type="words">Csiszér László</author>
       <author type="music">Csiszér László</author>
@@ -15,13 +14,19 @@
   </properties>
   <lyrics>
     <verse name="v1">
-      <lines>Lelkem csak Tebenned lel nyugalmat, én Istenem,<br/>Tőled jön segítségem, Te vagy a reménységem!<br/>‖: Úgy vágyom, hogy átölelj,<br/>Úgy vágyom, hogy átölelj! :‖</lines>
+      <lines>Lelkem csak Tebenned lel nyugalmat, én Istenem,<br/>Tőled jön segítségem, Te vagy a reménységem!</lines>
     </verse>
-    <verse name="v2">
-      <lines>Békédet kiárasztod, és megtart erős jobbod,<br/>Nálad van biztonságban életem s minden napom,<br/>‖: oltalmam csak Te vagy,<br/>oltalmam csak Te vagy! :‖</lines>
+    <verse name="b1a">
+      <lines>Úgy vágyom, hogy átölelj, Úgy vágyom, hogy átölelj!</lines>
+    </verse>
+    <verse name="b1b">
+      <lines>Békédet kiárasztod, és megtart erős jobbod,<br/>Nálad van biztonságban életem s minden napom, </lines>
+    </verse>
+    <verse name="b2">
+      <lines>Oltalmam csak Te vagy, oltalmam csak Te vagy! </lines>
     </verse>
     <verse name="c1">
-      <lines>Menedék nekem csak Istenben van,<br/>dicsőségem csak Istenben van,<br/>szabadulás nekem csak Istenben van,<br/>erősségem Istene Ő, dicsőségem Istene Ő!</lines>
+      <lines>Menedék nekem csak Istenben van, dicsőségem csak Istenben van, szabadulás nekem csak Istenben van, erősségem Istene Ő, dicsőségem Istene Ő!</lines>
     </verse>
   </lyrics>
 </song>

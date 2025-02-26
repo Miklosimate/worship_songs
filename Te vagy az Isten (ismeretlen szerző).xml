@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.1" modifiedIn="OpenLP 3.1.1" modifiedDate="2024-06-01T13:52:31">
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 2.4.6" modifiedIn="OpenLP 2.4.6" modifiedDate="2023-03-08T16:21:03">
   <properties>
     <titles>
       <title>Te vagy az Isten</title>
@@ -14,11 +14,17 @@
     </songbooks>
   </properties>
   <lyrics>
-    <verse name="v1">
-      <lines>Te vagy az Isten, Te vagy az Úr,<br/>Te vagy az első, az utolsó.<br/>Te vagy a kezdet, Te vagy a vég,<br/>Te vagy az élet, úgy imádlak én.</lines>
+    <verse name="v1a">
+      <lines>Te vagy az Isten, Te vagy az Úr,<br/>Te vagy az első, az utolsó.</lines>
     </verse>
-    <verse name="c1">
-      <lines>Mert a hegyek leomlanak,<br/>de a Te hűséged, Jézus,<br/>mindörökké megmarad.<br/>Mert a sziklák elolvadnak,<br/>de a Te hűséged, Jézus, megmarad.</lines>
+    <verse name="v1b">
+      <lines>Te vagy a kezdet, Te vagy a vég,<br/>Te vagy az élet, úgy imádlak én.</lines>
+    </verse>
+    <verse name="c1a">
+      <lines>Mert a hegyek leomlanak,<br/>de a Te hűséged, Jézus,<br/>mindörökké megmarad.</lines>
+    </verse>
+    <verse name="c1b">
+      <lines>Mert a sziklák elolvadnak,<br/>de a Te hűséged, Jézus, megmarad.</lines>
     </verse>
   </lyrics>
 </song>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.1" modifiedIn="OpenLP 3.1.1" modifiedDate="2024-06-01T13:52:08">
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 2.4.6" modifiedIn="OpenLP 2.4.6" modifiedDate="2020-12-22T14:03:51">
   <properties>
     <titles>
       <title>Az életem ajándék</title>
@@ -18,10 +18,10 @@
       <lines>Az életem ajándék,<br/>amit Tőled kaptam én.<br/>Ma téged választ a szívem,<br/>hogy örökre bennem élj.</lines>
     </verse>
     <verse name="c1">
-      <lines>Elfogadom a sok jót, <br/>amit adsz nekem.<br/>Elfogadom ma tőled,<br/>mert Te vagy Istenem.</lines>
+      <lines>Elfogadom a sok jót, <br/>amit adsz nekem.<br/>Elfogadom ma tőled, <br/>mert Te vagy Istenem.</lines>
     </verse>
     <verse name="v2">
-      <lines>Szólj szívemhez Jézus, <br/>vezessen szavad,<br/>mert boldogságot nékem<br/>jelenléted ad.</lines>
+      <lines>Szólj szívemhez Jézus, <br/>vezessen szavad,<br/>mert boldogságot nékem <br/>jelenléted ad.</lines>
     </verse>
   </lyrics>
 </song>

@@ -1,13 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.1" modifiedIn="OpenLP 3.1.1" modifiedDate="2024-06-01T13:50:57">
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 2.4.6" modifiedIn="OpenLP 2.4.6" modifiedDate="2020-12-22T14:04:33">
   <properties>
     <titles>
       <title>Pap vagy te mindörökk</title>
     </titles>
-    <verseOrder>v6</verseOrder>
+    <verseOrder>v1 v2 v3 v4 v5 v6</verseOrder>
     <authors>
       <author>Author Unknown</author>
     </authors>
+    <songbooks>
+      <songbook name="Zsoltár - páratlan hétköznap" entry="22"/>
+    </songbooks>
   </properties>
   <lyrics>
     <verse name="v1">

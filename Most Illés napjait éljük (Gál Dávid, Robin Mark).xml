@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.1" modifiedIn="OpenLP 3.1.1" modifiedDate="2024-06-24T17:48:50">
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 2.4.6" modifiedIn="OpenLP 2.4.6" modifiedDate="2020-12-22T14:04:25">
   <properties>
     <titles>
       <title>Most Illés napjait éljük</title>
       <title>Days Of Elijah</title>
     </titles>
-    <copyright>1996 Song Solutions Daybreak</copyright>
+    <copyright>© 1996 Song Solutions Daybreak</copyright>
     <verseOrder>v1 c1 v2 c1</verseOrder>
     <authors>
       <author type="words">Robin Mark</author>
@@ -26,9 +26,6 @@
     </verse>
     <verse name="v2">
       <lines>Ezekiel napjait éljük,<br/>a száraz csontra ismét hús kerül.<br/>Ma Dávid szolgád napját látjuk újra,<br/>a dicséretnek új templom épül.<br/>Új aratás napja jött el, a mezők már fehérlenek,<br/>és mi, mint a szőlőskert munkásai,<br/>az Úr Igéjét így hirdetjük ki!</lines>
-    </verse>
-    <verse name="b1">
-      <lines>Nincs senki Hozzá méltó!<br/>Nincs senki Hozzá méltó!<br/>Nincs senki Hozzá méltó!<br/>Nincs senki Hozzá méltó!</lines>
     </verse>
   </lyrics>
 </song>
