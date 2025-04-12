@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OpenLyrics Song Viewer</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 700px;
+      margin: auto;
+      padding: 20px;
+    }
+    h1 { text-align: center; }
+    select, button {
+      font-size: 1em;
+      margin-top: 10px;
+    }
+    .lyrics {
+      margin-top: 30px;
+      white-space: pre-line;
+    }
+  </style>
+</head>
+<body>
+  <h1>OpenLyrics Song Viewer</h1>
+  
+  <label for="songSelector">Choose a song:</label>
+  <select id="songSelector"></select>
+  <button onclick="loadSong()">Load</button>
+
+  <div class="lyrics" id="lyricsDisplay"></div>
+
+  <script>
+    const repoOwner = 'Miklosimate';
+    const repoName = 'worship_songs';
+    const folderPath = 'songs'; // path to the folder with XML files in your repo
+
+    async function fetchSongList() {
+      const url = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${folderPath}`;
+      const res = await fetch(url);
+      const data = await res.json();
+
+      const selector = document.getElementById('songSelector');
+      data.forEach(file => {
+        if (file.name.endsWith('.xml')) {
+          const option = document.createElement('option');
+          option.value = file.download_url;
+          option.text = file.name.replace('.xml', '');
+          selector.appendChild(option);
+        }
+      });
+    }
+
+    async function loadSong() {
+      const url = document.getElementById('songSelector').value;
+      const res = await fetch(url);
+      const xmlText = await res.text();
+      const parser = new DOMParser();
+      const xml = parser.parseFromString(xmlText, "application/xml");
+
+      const verses = xml.getElementsByTagNameNS("*", "verse");
+      const verseOrder = xml.getElementsByTagNameNS("*", "verseOrder")[0]?.textContent.split(' ') || [];
+      let lyrics = '';
+
+      verseOrder.forEach(name => {
+        const verse = [...verses].find(v => v.getAttribute('name') === name);
+        if (verse) {
+          const lines = verse.textContent.trim().split('<br/>').join('\n');
+          lyrics += lines + '\n\n';
+        }
+      });
+
+      document.getElementById('lyricsDisplay').innerText = lyrics.trim();
+    }
+
+    fetchSongList();
+  </script>
+</body>
+</html>
