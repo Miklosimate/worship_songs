@@ -1,76 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>OpenLyrics Song Viewer</title>
+  <meta charset="UTF-8" />
+  <title>Worship Songs Viewer</title>
   <style>
     body {
       font-family: sans-serif;
-      max-width: 700px;
+      max-width: 900px;
       margin: auto;
       padding: 20px;
     }
-    h1 { text-align: center; }
-    select, button {
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    input {
       font-size: 1em;
-      margin-top: 10px;
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+    }
+    .song {
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #ccc;
+    }
+    .metadata {
+      font-size: 0.95em;
+      color: #555;
+      margin-bottom: 10px;
     }
     .lyrics {
-      margin-top: 30px;
       white-space: pre-line;
+      font-size: 1em;
+      color: #222;
     }
   </style>
 </head>
 <body>
-  <h1>OpenLyrics Song Viewer</h1>
-  
-  <label for="songSelector">Choose a song:</label>
-  <select id="songSelector"></select>
-  <button onclick="loadSong()">Load</button>
+  <h1>🎶 Worship Songs Viewer</h1>
 
-  <div class="lyrics" id="lyricsDisplay"></div>
+  <input type="text" id="searchInput" placeholder="Search by title or lyrics..." oninput="filterSongs()" />
+
+  <div id="songsContainer">Loading songs...</div>
 
   <script>
-    const repoOwner = 'Miklosimate';
-    const repoName = 'worship_songs';
-    const folderPath = 'songs'; // path to the folder with XML files in your repo
+    const repoOwner = 'miklosimate'; // Your GitHub username
+    const repoName = 'worship_songs'; // Your GitHub repo name
+    const folderPath = 'songs'; // Folder with .xml files
+
+    let allSongs = [];
+
+    // Normalize strings: lowercase + remove accents
+    function normalizeText(str) {
+      return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+    }
+
+    // Levenshtein distance for fuzzy match
+    function levenshteinDistance(a, b) {
+      const m = a.length;
+      const n = b.length;
+      const dp = Array.from({ length: m + 1 }, () => Array(n + 1).fill(0));
+      for (let i = 0; i <= m; i++) dp[i][0] = i;
+      for (let j = 0; j <= n; j++) dp[0][j] = j;
+      for (let i = 1; i <= m; i++) {
+        for (let j = 1; j <= n; j++) {
+          if (a[i - 1] === b[j - 1]) {
+            dp[i][j] = dp[i - 1][j - 1];
+          } else {
+            dp[i][j] = 1 + Math.min(dp[i - 1][j - 1], dp[i][j - 1], dp[i - 1][j]);
+          }
+        }
+      }
+      return dp[m][n];
+    }
 
     async function fetchSongList() {
       const url = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${folderPath}`;
       const res = await fetch(url);
-      const data = await res.json();
+      const files = await res.json();
 
-      const selector = document.getElementById('songSelector');
-      data.forEach(file => {
+      const loading = document.getElementById('songsContainer');
+      loading.innerHTML = '<p>Loading songs...</p>';
+
+      for (const file of files) {
         if (file.name.endsWith('.xml')) {
-          const option = document.createElement('option');
-          option.value = file.download_url;
-          option.text = file.name.replace('.xml', '');
-          selector.appendChild(option);
+          const songData = await fetchAndParseSong(file.download_url);
+          if (songData) allSongs.push(songData);
         }
+      }
+
+      displaySongs(allSongs);
+    }
+
+    async function fetchAndParseSong(url) {
+      try {
+        const res = await fetch(url);
+        const xmlText = await res.text();
+        const parser = new DOMParser();
+        const xml = parser.parseFromString(xmlText, "application/xml");
+
+        const titles = [...xml.getElementsByTagNameNS("*", "title")].map(t => t.textContent);
+        const authors = [...xml.getElementsByTagNameNS("*", "author")].map(a => a.textContent).join(', ');
+        const verseOrderTag = xml.getElementsByTagNameNS("*", "verseOrder")[0];
+        const verses = [...xml.getElementsByTagNameNS("*", "verse")];
+
+        const order = verseOrderTag
+          ? verseOrderTag.textContent.split(' ')
+          : verses.map(v => v.getAttribute('name')); // fallback if verseOrder is missing
+
+        let lyrics = '';
+
+        order.forEach(name => {
+          const verse = verses.find(v => v.getAttribute('name') === name);
+          if (verse) {
+            const lines = verse.getElementsByTagNameNS("*", "lines")[0]?.textContent || '';
+            lyrics += lines.trim() + '\n\n';
+          }
+        });
+
+        return {
+          titles,
+          authors,
+          verseOrder: verseOrderTag?.textContent || '(all verses)',
+          lyrics: lyrics.trim()
+        };
+      } catch (err) {
+        console.error("Error loading/parsing song:", err);
+        return null;
+      }
+    }
+
+    function displaySongs(songs) {
+      const container = document.getElementById('songsContainer');
+      container.innerHTML = '';
+
+      if (songs.length === 0) {
+        container.innerHTML = '<p>No songs found.</p>';
+        return;
+      }
+
+      songs.forEach(song => {
+        const songDiv = document.createElement('div');
+        songDiv.className = 'song';
+        songDiv.innerHTML = `
+          <div class="metadata">
+            <strong>Titles:</strong> ${song.titles.join(', ')}<br/>
+            <strong>Author(s):</strong> ${song.authors}<br/>
+            <strong>Verse Order:</strong> ${song.verseOrder}
+          </div>
+          <div class="lyrics">${song.lyrics}</div>
+        `;
+        container.appendChild(songDiv);
       });
     }
 
-    async function loadSong() {
-      const url = document.getElementById('songSelector').value;
-      const res = await fetch(url);
-      const xmlText = await res.text();
-      const parser = new DOMParser();
-      const xml = parser.parseFromString(xmlText, "application/xml");
+    function filterSongs() {
+      const query = normalizeText(document.getElementById('searchInput').value);
 
-      const verses = xml.getElementsByTagNameNS("*", "verse");
-      const verseOrder = xml.getElementsByTagNameNS("*", "verseOrder")[0]?.textContent.split(' ') || [];
-      let lyrics = '';
+      const filtered = allSongs.filter(song => {
+        const titleMatches = song.titles.some(t => {
+          const normTitle = normalizeText(t);
+          return normTitle.includes(query) || levenshteinDistance(normTitle, query) <= 3;
+        });
 
-      verseOrder.forEach(name => {
-        const verse = [...verses].find(v => v.getAttribute('name') === name);
-        if (verse) {
-          const lines = verse.textContent.trim().split('<br/>').join('\n');
-          lyrics += lines + '\n\n';
-        }
+        const normLyrics = normalizeText(song.lyrics);
+        const lyricsMatch = normLyrics.includes(query) || levenshteinDistance(normLyrics, query) <= 3;
+
+        return titleMatches || lyricsMatch;
       });
 
-      document.getElementById('lyricsDisplay').innerText = lyrics.trim();
+      displaySongs(filtered);
     }
 
     fetchSongList();
